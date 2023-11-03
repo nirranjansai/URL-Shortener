@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image:url('URL-Shorteners.jpg');
+    background-size: cover;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 10rem;
+}
+.container{
+    margin: 80px;
+    background-color:#00c8ff;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+    gap: 1rem;
+    border-style: none;
+
+    
+
+}
+.label{
+    padding: 10px;
+    color: white;
+}
+
+
+#url{
+    padding: 7px;
+}
+#url::placeholder{
+    text-align: center;
+}
+#btn{
+    background-color: #05e7f3;
+    border:none;
+    padding: 10px;
+    color: #000000;
+    border-radius: 50px;
+}
+p{
+    color: white;
+}
+#results{
+    color:white;
+}
